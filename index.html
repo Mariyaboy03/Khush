@@ -2,465 +2,453 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Khush</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Khush</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
 </head>
 
 <body>
-  <nav class="navbar">
-    <div class="container nav-content">
-      <img src="logo-01.svg" alt="logo" class="logo">
-      <ul class="nav-links">
-        <li><a href="#About">About</a></li>
-        <li><a href="#Projects">Projects</a></li>
-        <li><a href="#Services">Services</a></li>
-        <li><a href="#Contact">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
+    <nav class="navbar">
+        <div class="container nav-content">
+            <img src="logo-01.svg" alt="Khush Logo" class="logo">
+            <ul class="nav-links">
+                <li><a href="#About">About</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+            <!-- Hamburger icon for mobile (will need JS to toggle) -->
+            <button class="hamburger-menu" aria-label="Toggle navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </nav>
 
-  <header class="hero" id="home">
-    <div class="hero-container">
-
-      <div class="hero-label">
-        <span class="blinking-dot"></span>
-        Crafting Unique Brand Identities
-      </div>
-      <div class="hero-content">
-        <h1>Branding that you<br />need Indeed</h1>
-        <p>
-          Elevate your brand with custom identity and package design.
-          Showcase your story through bold visuals and strategic design solutions.
-        </p>
-
-        <div class="hero-buttons">
-          <a href="#Contact" class="btn">Get Started Now</a>
-          <a href="#Projects" class="btn">See Projects</a>
-        </div>
-      </div>
-    </div>
-    <video autoplay muted loop class="bg-video" src="video content/back.mp4"></video>
-  </header>
-
-  <section class="photo-grid">
-    <div class="grid-wrapper">
-      <div class="column">
-        <div class="image-wrapper">
-          <img src="grid images/AD.jpg" alt="Design Image 1" />
-        </div>
-        <div class="image-wrapper">
-          <img src="grid images/Untitled-1.jpg" alt="Design Image 2" />
-        </div>
-        <div class="image-wrapper">
-          <img src="grid images/Bcard.jpg" alt="Design Image 3" />
-        </div>
-      </div>
-
-      <!-- Middle Column -->
-      <div class="middle">
-        <div class="image-wrapper">
-          <img src="grid images/Cmas.jpg" alt="Design Image 4" />
-        </div>
-        <div class="image-wrapper">
-          <img src="grid images/flyer.jpg" alt="Design Image 5" />
-        </div>
-        <div class="image-wrapper">
-          <img src="grid images/flyer3.jpg" alt="Design Image 6" />
-        </div>
-      </div>
-
-      <!-- Right Column -->
-      <div class="column">
-        <div class="image-wrapper">
-          <img src="grid images/flyer2.jpg" alt="Design Image 7" />
-        </div>
-        <div class="image-wrapper">
-          <img src="grid images/RH2.jpg" alt="Design Image 8" />
-        </div>
-        <div class="image-wrapper">
-          <img src="grid images/flyer3.jpg" alt="Design Image 9" />
-        </div>
-      </div>
-    </div>
-  </section>
-
-  </section>
-
-  <section class="cta-section">
-    <a href="#Projects" class="cta-link">All Projects</a>
-    <a href="#Contact" class="cta-button">Book a Free Call</a>
-  </section>
-
-
-  <section class="meet-section" id="About">
-    <div class="meet-container">
-      <!-- Left: Text Content -->
-      <div class="meet-text">
-        <h1>Meet Khushbu</h1>
-        <p>
-          I'm Khushbu, a passionate Brand Identity & Package Designer based in Indore. I specialize in crafting bold visual
-          identities and packaging that captivate and inspire, blending creativity with strategy to elevate brands.
-        </p>
-
-        <div class="badges">
-          <span>Product Design</span>
-          <span>Brand Identity Design</span>
-          <span>Wedding Cards</span>
-          <span>Branding</span>
-          <span>Packaging Design</span>
-          <span>Business Cards</span>
-          <span>Social Media Post</span>
-        </div>
-
-        <div class="experience">
-          <div class="exp-row">
-            <span class="row1">Freelance</span>
-            <span>Fiverr</span>
-            <span>Currently</span>
-          </div>
-          <div class="exp-row">
-            <span class="row1">Brand Designer</span>
-            <span>Graphic 360</span>
-            <span>2023–25</span>
-          </div>
-          <div class="exp-row">
-            <span class="row1">Package Designer</span>
-            <span>Graphic 360</span>
-            <span>2023–25</span>
-          </div>
-        </div>
-
-        <div class="recent">
-          <span>Recent Works</span>
-          <span class="arrow">⬇</span>
-        </div>
-      </div>
-
-      <!-- Right: Image -->
-      <div class="meet-image">
-        <img src="Temp.jpg" alt="Khushbu Portrait" />
-      </div>
-    </div>
-  </section>
-
-  <section class="casestudy-carousel" id="Projects">
-    <div class="carousel-wrapper">
-      <div class="carousel-track" id="carouselTrack">
-        <div class="case-item">
-          <img src="grid images/flyer.jpg" alt="">
-          <a href="#" class="case-btn">View Casestudy ↗</a>
-        </div>
-        <div class="case-item">
-          <img src="grid images/flyer.jpg" alt="">
-          <a href="#" class="case-btn">View Casestudy ↗</a>
-        </div>
-        <div class="case-item">
-          <img src="grid images/flyer.jpg" alt="">
-          <a href="#" class="case-btn">View Casestudy ↗</a>
-        </div>
-        <div class="case-item">
-          <img src="grid images/flyer.jpg" alt="">
-          <a href="#" class="case-btn">View Casestudy ↗</a>
-        </div>
-        <div class="case-item">
-          <img src="grid images/flyer.jpg" alt="">
-          <a href="#" class="case-btn">View Casestudy ↗</a>
-        </div>
-        <div class="case-item">
-          <img src="grid images/flyer.jpg" alt="">
-          <a href="#" class="case-btn">View Casestudy ↗</a>
-        </div>
-        <div class="case-item">
-          <img src="grid images/flyer.jpg" alt="">
-          <a href="#" class="case-btn">View Casestudy ↗</a>
-        </div>
-
-      </div>
-
-      <!-- Right arrow scroll button -->
-      <button class="scroll-btn" onclick="scrollCarousel()">➜</button>
-    </div>
-  </section>
-
-  <section class="process-section">
-    <div class="process-container">
-      <!-- Left Image -->
-      <div class="process-image">
-        <img src="woman-writing-notebook-table-with-laptop-equipments.jpg" alt="Process Image">
-      </div>
-
-      <!-- Right Content -->
-      <div class="process-content">
-        <div class="hero-label">
-          <span class="blinking-dot"></span>
-          Design Process
-        </div>
-        <h2>Process</h2>
-        <p>crafting bold visuals that inspire and elevate brands with thought process.</p>
-
-        <div class="process-buttons">
-          <button class="glow-btn">Book a Free Call</button>
-          <button class="glow-btn">See Projects</button>
-        </div>
-
-        <!-- Steps -->
-        <div class="process-steps">
-          <div class="step-card">
-            <div class="step-header">
-              <span>💡</span>
-              <h3>Define Your Vision</h3>
-              <div class="step-number">1</div>
+    <header class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-label">
+                <span class="blinking-dot"></span>
+                Crafting Unique Brand Identities
             </div>
-            <p>Find the perfect plan tailored to your needs, offering the right balance of features, flexibility, and
-              value to help you achieve your goals effortlessly.</p>
-          </div>
-
-          <div class="step-card">
-            <div class="step-header">
-              <span>🧾</span>
-              <h3>Submit Your Request</h3>
-              <div class="step-number">2</div>
+            <div class="hero-content">
+                <h1>Branding that you<br />need Indeed</h1>
+                <p>
+                    Elevate your brand with custom identity and package design.
+                    Showcase your story through bold visuals and strategic design solutions.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#Contact" class="btn">Get Started Now</a>
+                    <a href="#Projects" class="btn">See Projects</a>
+                </div>
             </div>
-            <p>Easily submit your design requirements through our private design portal, ensuring a seamless process
-              where your vision is understood, refined, and brought to life with precision and creativity.</p>
-          </div>
+        </div>
+        <!-- Added playsinline for better mobile video behavior, and a poster for fallback -->
+        <video autoplay muted loop playsinline class="bg-video" src="video content/back.mp4"
+            poster="video content/back-poster.jpg" aria-label="Background video of abstract design"></video>
+    </header>
 
-          <div class="step-card">
-            <div class="step-header">
-              <span>🚀</span>
-              <h3>Project Delivered</h3>
-              <div class="step-number">3</div>
+    <section class="photo-grid">
+        <div class="grid-wrapper">
+            <div class="column">
+                <div class="image-wrapper">
+                    <img src="grid images/AD.jpg" alt="AD Design" />
+                </div>
+                <div class="image-wrapper">
+                    <img src="grid images/Untitled-1.jpg" alt="logo design" />
+                </div>
+                <div class="image-wrapper">
+                    <img src="grid images/Bcard.jpg" alt="Business Card Design" />
+                </div>
             </div>
-            <p>As a dedicated freelancer, I ensure your project is completed with precision and delivered within 2-3
-              days. With a keen eye for detail and a passion for quality, I bring your vision to life—on time and beyond
-              expectations.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
-
-
-  <section class="services-section" id="Services">
-    <div class="services-container">
-      <!-- Left Side Content -->
-      <div class="services-text">
-        <div class="hero-label">
-          <span class="blinking-dot"></span>
-          Design Services
-        </div>
-        <h2>Services</h2>
-        <p>Helping businesses standout with brand identity packaging that captivates and converts effectively.</p>
-
-        <!-- Top Tags -->
-        <div class="static-tags">
-          <span>Product Design</span>
-          <span>Brand Identity Design</span>
-          <span>Branding</span>
-          <span>Packaging Design</span>
-          <span>Mockup Design</span>
-        </div>
-
-        <!-- Buttons -->
-        <div class="services-buttons">
-          <button class="glassy-btn">Book a Free Call</button>
-          <button class="glassy-btn">See Projects</button>
-        </div>
-
-
-      </div>
-
-      <!-- Right Image -->
-      <div class="services-image">
-        <img src="GD_Монтажная область 1_Монтажная область 1.svg" alt="Service Visual">
-      </div>
-    </div>
-
-    <!-- Services Cards -->
-    <div class="services-grid">
-      <div class="service-card">
-        <h3>📂 Brand Identity</h3>
-        <p>Crafting unique, memorable brand identities that resonate with your audience — from logos to visual
-          systems...</p>
-      </div>
-      <div class="service-card">
-        <h3>🎯 Brand Design</h3>
-        <p>Designing sleek, impactful packaging that not only looks stunning but also connects with your ideal
-          customers...</p>
-      </div>
-      <div class="service-card">
-        <h3>📦 Package Design</h3>
-        <p>Bringing your brand to life through high-fidelity product mockups, giving you a clear, realistic
-          preview...</p>
-      </div>
-      <div class="service-card">
-        <h3>🖼️ Mockup Design</h3>
-        <p>Tailored design mockups that align perfectly with your brand’s aesthetic — every detail matters...</p>
-      </div>
-    </div>
-
-    <!-- Bottom Tags -->
-    <div class="scroller">
-      <ul class="tag-list scroller_inner">
-        <li>package design</li>
-        <li>logo</li>
-        <li>business Branding</li>
-        <li>web Designing</li>
-        <li>post design</li>
-        <li>cover design</li>
-        <li>wedding card</li>
-
-        <li>package design</li>
-        <li>logo</li>
-        <li>business Branding</li>
-        <li>web Designing</li>
-        <li>post design</li>
-        <li>cover design</li>
-        <li>wedding card</li>
-      </ul>
-    </div>
-
-    <div class="scroller" data-direction="right">
-      <ul class="tag-list scroller_inner">
-        <li>package design</li>
-        <li>logo</li>
-        <li>business Branding</li>
-        <li>web Designing</li>
-        <li>post design</li>
-        <li>cover design</li>
-        <li>wedding card</li>
-
-        <li>package design</li>
-        <li>logo</li>
-        <li>business Branding</li>
-        <li>web Designing</li>
-        <li>post design</li>
-        <li>cover design</li>
-        <li>wedding card</li>
-      </ul>
-    </div>
-
-
-
-  </section>
-
-  <section class="client-reviews-section">
-    <div class="client-reviews-header">
-      <div class="image-box">
-        <img src="mobile-customer-feedback.jpg" alt="Review img" />
-      </div>
-      <div class="text-content">
-        <div class="hero-label">
-          <span class="blinking-dot"></span>
-          Reviews
-        </div>
-        <h2>Client Reviews</h2>
-        <p>
-          Real feedback from clients who trusted my design expertise to elevate their brands successfully.
-        </p>
-        <div class="action-buttons">
-          <button class="glassy-btn">Book a Free Call</button>
-          <button class="glassy-btn">See Services</button>
-        </div>
-      </div>
-    </div>
-
-    <!-- Marquee for client cards -->
-
-    <!-- Stats -->
-    <div class="stats-container">
-      <div class="stat-item">
-        <div class="stat-number">180+</div>
-        <div class="stat-description">design projects completed.</div>
-      </div>
-      <div class="separator"></div>
-      <div class="stat-item">
-        <!-- The dot in the image appears to be a separate visual element,
-             not directly part of the text, so we'll handle it with CSS or a small div.
-             For exact replication, I'll add a small div here. -->
-        <div class="stat-number">96%</div>
-        <div class="stat-description">Client satisfaction rate.</div>
-      </div>
-      <div class="separator"></div>
-      <div class="stat-item">
-        <div class="stat-number">15+</div>
-        <div class="stat-description">Years of experience</div>
-      </div>
-    </div>
-  </section>
-
-
-  <footer class="footer-section" id="Contact">
-    <!-- This div will contain your video background for the parallax effect -->
-    <div class="parallax-video-section" id="feature-video-section">
-      <video autoplay muted loop playsinline poster="placeholder-image2.jpg">
-        <source src="2025-07-14 01-00-00.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-      <div class="content-overlay">
-        <div class="footer-content">
-          <!-- Let's Connect Section -->
-          <div class="connect-section">
-            <h2 class="connect-title">Let's Connect.</h2>
-            <p class="connect-subtitle">Got a project in mind? Let's talk.</p>
-            <button class="book-call-button">Book a Free Call</button>
-          </div>
-
-          <!-- Separator Line -->
-          <hr class="footer-separator">
-
-          <!-- Bottom Footer Grid -->
-          <div class="footer-bottom-grid">
-            <div class="contact-info">
-              <p>hello@yourdomain.com</p>
-              <p>+91 9131749330</p>
+            <!-- Middle Column -->
+            <div class="middle">
+                <div class="image-wrapper">
+                    <img src="grid images/Cmas.jpg" alt="Christmas Themed Design" />
+                </div>
+                <div class="image-wrapper">
+                    <img src="grid images/flyer.jpg" alt="Event Flyer Design" />
+                </div>
+                <div class="image-wrapper">
+                    <img src="grid images/flyer3.jpg" alt="Product Flyer Design" />
+                </div>
             </div>
-            <div class="social-links">
-              <!-- Placeholder for social icons. Replace with actual icons (e.g., Font Awesome) -->
-              <a href="#" class="social-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                  fill="#1877F2" viewBox="0 0 24 24">
-                  <path
-                    d="M22.675 0h-21.35C.595 0 0 .592 0 1.323v21.353C0 23.405.595 24 1.325 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.894-4.788 4.659-4.788 1.325 0 2.464.099 2.796.143v3.24l-1.92.001c-1.505 0-1.797.716-1.797 1.766v2.315h3.587l-.467 3.622h-3.12V24h6.116C23.405 24 24 23.405 24 22.676V1.323C24 .592 23.405 0 22.675 0z" />
-                </svg>
-              </a>
-              <a href="#" class="social-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                  fill="#1DA1F2" viewBox="0 0 24 24">
-                  <path
-                    d="M23.954 4.569c-.885.392-1.83.656-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.949.566-2.005.974-3.127 1.195-.896-.954-2.178-1.548-3.594-1.548-2.717 0-4.92 2.206-4.92 4.917 0 .39.045.765.127 1.124-4.087-.205-7.713-2.165-10.141-5.144-.422.722-.664 1.561-.664 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.247-2.228-.616v.06c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.317 0-.626-.03-.927-.086.627 1.956 2.444 3.377 4.6 3.419-1.68 1.316-3.809 2.101-6.102 2.101-.396 0-.788-.023-1.174-.069 2.179 1.397 4.768 2.212 7.557 2.212 9.054 0 14-7.496 14-13.986 0-.21-.006-.423-.015-.635.962-.689 1.8-1.56 2.46-2.548l-.047-.02z" />
-                </svg>
-              </a>
-              <a href="#" class="social-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                  fill="#E4405F" viewBox="0 0 24 24">
-                  <path
-                    d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5A4.25 4.25 0 0 0 20.5 16.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 1.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7zm5.25-.75a.75.75 0 1 1 0 1.5.75.75 0 0 1 0-1.5z" />
-                </svg>
 
-              </a>
-              <a href="#" class="social-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                  fill="#0077B5" viewBox="0 0 24 24">
-                  <path
-                    d="M20.447 20.452h-3.554v-5.569c0-1.327-.026-3.037-1.849-3.037-1.853 0-2.136 1.444-2.136 2.937v5.669H9.354V9h3.414v1.561h.047c.475-.899 1.637-1.849 3.367-1.849 3.599 0 4.263 2.368 4.263 5.455v6.285zM5.337 7.433c-1.144 0-2.07-.928-2.07-2.07 0-1.143.927-2.07 2.07-2.07 1.143 0 2.07.927 2.07 2.07 0 1.142-.927 2.07-2.07 2.07zm1.777 13.019H3.56V9h3.554v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z" />
-                </svg>
-              </a>
+            <!-- Right Column -->
+            <div class="column">
+                <div class="image-wrapper">
+                    <img src="grid images/flyer2.jpg" alt="Marketing Flyer" />
+                </div>
+                <div class="image-wrapper">
+                    <img src="grid images/RH2.jpg" alt="Branding Mockup" />
+                </div>
+                <div class="image-wrapper">
+                    <img src="grid images/flyer3.jpg" alt="Another Product Flyer" />
+                </div>
             </div>
-            <div class="copyright">
-              <p>&copy; 2025 Khush. All rights reserved.</p>
-            </div>
-          </div>
         </div>
-      </div>
-    </div>
+    </section>
 
+    <section class="cta-section">
+        <a href="#Projects" class="cta-link">All Projects</a>
+        <a href="#Contact" class="cta-button">Book a Free Call</a>
+    </section>
 
-  </footer>
+    <section class="meet-section" id="About">
+        <div class="meet-container container">
+            <!-- Left: Text Content -->
+            <div class="meet-text">
+                <h1>Meet Khushbu</h1>
+                <p>
+                    I'm Khushbu, a passionate Brand Identity & Package Designer based in Indore. I specialize in crafting bold visual
+                    identities and packaging that captivate and inspire, blending creativity with strategy to elevate brands.
+                </p>
 
-  <script defer src="script.js"></script>
+                <div class="badges">
+                    <span>Product Design</span>
+                    <span>Brand Identity Design</span>
+                    <span>Wedding Cards</span>
+                    <span>Branding</span>
+                    <span>Packaging Design</span>
+                    <span>Business Cards</span>
+                    <span>Social Media Post</span>
+                </div>
+
+                <div class="experience">
+                    <div class="exp-row">
+                        <span class="exp-title">Freelance</span>
+                        <span class="exp-company">GreenLeaf Co</span>
+                        <span class="exp-year">Currently</span>
+                    </div>
+                    <div class="exp-row">
+                        <span class="exp-title">Brand Designer</span>
+                        <span class="exp-company">UrbanFit Studio</span>
+                        <span class="exp-year">2023–24</span>
+                    </div>
+                    <div class="exp-row">
+                        <span class="exp-title">Package Designer</span>
+                        <span class="exp-company">GreenK Studio</span>
+                        <span class="exp-year">2020–22</span>
+                    </div>
+                </div>
+
+                <div class="recent">
+                    <span>Recent Works</span>
+                    <span class="arrow">⬇</span>
+                </div>
+            </div>
+
+            <!-- Right: Image -->
+            <div class="meet-image">
+                <img src="Temp.jpg" alt="Khushbu Portrait" />
+            </div>
+        </div>
+    </section>
+
+    <section class="casestudy-carousel" id="Projects">
+        <div class="carousel-wrapper container">
+            <div class="carousel-track" id="carouselTrack">
+                <div class="case-item">
+                    <img src="grid images/flyer.jpg" alt="Case Study Image 1">
+                    <a href="#" class="case-btn">View Casestudy ↗</a>
+                </div>
+                <div class="case-item">
+                    <img src="grid images/flyer.jpg" alt="Case Study Image 2">
+                    <a href="#" class="case-btn">View Casestudy ↗</a>
+                </div>
+                <div class="case-item">
+                    <img src="grid images/flyer.jpg" alt="Case Study Image 3">
+                    <a href="#" class="case-btn">View Casestudy ↗</a>
+                </div>
+                <div class="case-item">
+                    <img src="grid images/flyer.jpg" alt="Case Study Image 4">
+                    <a href="#" class="case-btn">View Casestudy ↗</a>
+                </div>
+                <div class="case-item">
+                    <img src="grid images/flyer.jpg" alt="Case Study Image 5">
+                    <a href="#" class="case-btn">View Casestudy ↗</a>
+                </div>
+                <div class="case-item">
+                    <img src="grid images/flyer.jpg" alt="Case Study Image 6">
+                    <a href="#" class="case-btn">View Casestudy ↗</a>
+                </div>
+                <div class="case-item">
+                    <img src="grid images/flyer.jpg" alt="Case Study Image 7">
+                    <a href="#" class="case-btn">View Casestudy ↗</a>
+                </div>
+            </div>
+
+            <!-- Right arrow scroll button -->
+            <button class="scroll-btn" aria-label="Scroll carousel right" onclick="scrollCarousel()">➜</button>
+        </div>
+    </section>
+
+    <section class="process-section">
+        <div class="process-container container">
+            <!-- Left Image -->
+            <div class="process-image">
+                <img src="woman-writing-notebook-table-with-laptop-equipments.jpg" alt="Process Illustration">
+            </div>
+
+            <!-- Right Content -->
+            <div class="process-content">
+                <div class="hero-label">
+                    <span class="blinking-dot"></span>
+                    Design Process
+                </div>
+                <h2>Process</h2>
+                <p>Crafting bold visuals that inspire and elevate brands with a thoughtful process.</p>
+
+                <div class="process-buttons">
+                    <button class="glow-btn">Book a Free Call</button>
+                    <button class="glow-btn">See Projects</button>
+                </div>
+
+                <!-- Steps -->
+                <div class="process-steps">
+                    <div class="step-card">
+                        <div class="step-header">
+                            <span class="step-icon">💡</span>
+                            <h3>Define Your Vision</h3>
+                            <div class="step-number">1</div>
+                        </div>
+                        <p>Find the perfect plan tailored to your needs, offering the right balance of features, flexibility, and
+                            value to help you achieve your goals effortlessly.</p>
+                    </div>
+
+                    <div class="step-card">
+                        <div class="step-header">
+                            <span class="step-icon">🧾</span>
+                            <h3>Submit Your Request</h3>
+                            <div class="step-number">2</div>
+                        </div>
+                        <p>Easily submit your design requirements through our private design portal, ensuring a seamless process
+                            where your vision is understood, refined, and brought to life with precision and creativity.</p>
+                    </div>
+
+                    <div class="step-card">
+                        <div class="step-header">
+                            <span class="step-icon">🚀</span>
+                            <h3>Project Delivered</h3>
+                            <div class="step-number">3</div>
+                        </div>
+                        <p>As a dedicated freelancer, I ensure your project is completed with precision and delivered within 2-3
+                            days. With a keen eye for detail and a passion for quality, I bring your vision to life—on time and beyond
+                            expectations.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services-section" id="Services">
+        <div class="services-container container">
+            <!-- Left Side Content -->
+            <div class="services-text">
+                <div class="hero-label">
+                    <span class="blinking-dot"></span>
+                    Design Services
+                </div>
+                <h2>Services</h2>
+                <p>Helping businesses standout with brand identity packaging that captivates and converts effectively.</p>
+
+                <!-- Top Tags -->
+                <div class="static-tags">
+                    <span>Product Design</span>
+                    <span>Brand Identity Design</span>
+                    <span>Branding</span>
+                    <span>Packaging Design</span>
+                    <span>Mockup Design</span>
+                </div>
+
+                <!-- Buttons -->
+                <div class="services-buttons">
+                    <button class="glassy-btn">Book a Free Call</button>
+                    <button class="glassy-btn">See Projects</button>
+                </div>
+            </div>
+
+            <!-- Right Image -->
+            <div class="services-image">
+                <img src="GD_Монтажная область 1_Монтажная область 1.svg" alt="Service Visual">
+            </div>
+        </div>
+
+        <!-- Services Cards Grid -->
+        <div class="services-grid container">
+            <div class="service-card">
+                <h3>📂 Brand Identity</h3>
+                <p>Crafting unique, memorable brand identities that resonate with your audience — from logos to visual
+                    systems...</p>
+            </div>
+            <div class="service-card">
+                <h3>🎯 Brand Design</h3>
+                <p>Designing sleek, impactful packaging that not only looks stunning but also connects with your ideal
+                    customers...</p>
+            </div>
+            <div class="service-card">
+                <h3>📦 Package Design</h3>
+                <p>Bringing your brand to life through high-fidelity product mockups, giving you a clear, realistic
+                    preview...</p>
+            </div>
+            <div class="service-card">
+                <h3>🖼️ Mockup Design</h3>
+                <p>Tailored design mockups that align perfectly with your brand’s aesthetic — every detail matters...</p>
+            </div>
+        </div>
+
+        <!-- Bottom Tags Scroller -->
+        <div class="scroller" data-animated="true">
+            <ul class="tag-list scroller_inner">
+                <li>package design</li>
+                <li>logo</li>
+                <li>business Branding</li>
+                <li>web Designing</li>
+                <li>post design</li>
+                <li>cover design</li>
+                <li>wedding card</li>
+                <!-- Duplicate items for seamless scroll -->
+                <li>package design</li>
+                <li>logo</li>
+                <li>business Branding</li>
+                <li>web Designing</li>
+                <li>post design</li>
+                <li>cover design</li>
+                <li>wedding card</li>
+            </ul>
+        </div>
+
+        <div class="scroller" data-direction="right" data-animated="true">
+            <ul class="tag-list scroller_inner">
+                <li>package design</li>
+                <li>logo</li>
+                <li>business Branding</li>
+                <li>web Designing</li>
+                <li>post design</li>
+                <li>cover design</li>
+                <li>wedding card</li>
+                <!-- Duplicate items for seamless scroll -->
+                <li>package design</li>
+                <li>logo</li>
+                <li>business Branding</li>
+                <li>web Designing</li>
+                <li>post design</li>
+                <li>cover design</li>
+                <li>wedding card</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="client-reviews-section">
+        <div class="client-reviews-header container">
+            <div class="image-box">
+                <img src="mobile-customer-feedback.jpg" alt="Client Testimonial Image" />
+            </div>
+            <div class="text-content">
+                <div class="hero-label">
+                    <span class="blinking-dot"></span>
+                    Reviews
+                </div>
+                <h2>Client Reviews</h2>
+                <p>
+                    Real feedback from clients who trusted my design expertise to elevate their brands successfully.
+                </p>
+                <div class="action-buttons">
+                    <button class="glassy-btn">Book a Free Call</button>
+                    <button class="glassy-btn">See Services</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Stats -->
+        <div class="stats-container container">
+            <div class="stat-item">
+                <div class="stat-number">50+</div>
+                <div class="stat-description">design projects completed.</div>
+            </div>
+            <div class="separator"></div>
+            <div class="stat-item">
+                <div class="stat-number">96%</div>
+                <div class="stat-description">Client satisfaction rate.</div>
+            </div>
+            <div class="separator"></div>
+            <div class="stat-item">
+                <div class="stat-number">1.5+</div>
+                <div class="stat-description">Years of experience</div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-section" id="Contact">
+        <!-- This div will contain your video background for the parallax effect -->
+        <div class="parallax-video-section footer-parallax">
+            <video autoplay muted loop playsinline poster="placeholder-image2.jpg"
+                aria-label="Background video of abstract patterns">
+                <source src="2025-07-14 01-00-00.mp4" type="video/mp4">
+                <!-- Add .webm source for better compatibility if available -->
+                <!-- <source src="path/to/your-footer-video.webm" type="video/webm"> -->
+                Your browser does not support the video tag.
+            </video>
+            <div class="content-overlay">
+                <div class="footer-content">
+                    <!-- Let's Connect Section -->
+                    <div class="connect-section">
+                        <h2 class="connect-title">Let's Connect.</h2>
+                        <p class="connect-subtitle">Got a project in mind? Let's talk.</p>
+                        <button class="book-call-button">Book a Free Call</button>
+                    </div>
+
+                    <!-- Separator Line -->
+                    <hr class="footer-separator">
+
+                    <!-- Bottom Footer Grid -->
+                    <div class="footer-bottom-grid">
+                        <div class="contact-info">
+                            <p>hello@yourdomain.com</p>
+                            <p>+91 9131749330</p>
+                        </div>
+                        <div class="social-links">
+                            <!-- SVG icons are now directly embedded in HTML for better control and no external requests -->
+                            <a href="#" class="social-icon" aria-label="Facebook"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    fill="currentColor" viewBox="0 0 24 24">
+                                    <path
+                                        d="M22.675 0h-21.35C.595 0 0 .592 0 1.323v21.353C0 23.405.595 24 1.325 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.894-4.788 4.659-4.788 1.325 0 2.464.099 2.796.143v3.24l-1.92.001c-1.505 0-1.797.716-1.797 1.766v2.315h3.587l-.467 3.622h-3.12V24h6.116C23.405 24 24 23.405 24 22.676V1.323C24 .592 23.405 0 22.675 0z" />
+                                </svg>
+                            </a>
+                            <a href="#" class="social-icon" aria-label="Twitter"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    fill="currentColor" viewBox="0 0 24 24">
+                                    <path
+                                        d="M23.954 4.569c-.885.392-1.83.656-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.949.566-2.005.974-3.127 1.195-.896-.954-2.178-1.548-3.594-1.548-2.717 0-4.92 2.206-4.92 4.917 0 .39.045.765.127 1.124-4.087-.205-7.713-2.165-10.141-5.144-.422.722-.664 1.561-.664 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.247-2.228-.616v.06c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.317 0-.626-.03-.927-.086.627 1.956 2.444 3.377 4.6 3.419-1.68 1.316-3.809 2.101-6.102 2.101-.396 0-.788-.023-1.174-.069 2.179 1.397 4.768 2.212 7.557 2.212 9.054 0 14-7.496 14-13.986 0-.21-.006-.423-.015-.635.962-.689 1.8-1.56 2.46-2.548l-.047-.02z" />
+                                </svg>
+                            </a>
+                            <a href="#" class="social-icon" aria-label="Instagram"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    fill="currentColor" viewBox="0 0 24 24">
+                                    <path
+                                        d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5A4.25 4.25 0 0 0 20.5 16.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 1.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7zm5.25-.75a.75.75 0 1 1 0 1.5.75.75 0 0 1 0-1.5z" />
+                                </svg>
+                            </a>
+                            <a href="#" class="social-icon" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    fill="currentColor" viewBox="0 0 24 24">
+                                    <path
+                                        d="M20.447 20.452h-3.554v-5.569c0-1.327-.026-3.037-1.849-3.037-1.853 0-2.136 1.444-2.136 2.937v5.669H9.354V9h3.414v1.561h.047c.475-.899 1.637-1.849 3.367-1.849 3.599 0 4.263 2.368 4.263 5.455v6.285zM5.337 7.433c-1.144 0-2.07-.928-2.07-2.07 0-1.143.927-2.07 2.07-2.07 1.143 0 2.07.927 2.07 2.07 0 1.142-.927 2.07-2.07 2.07zm1.777 13.019H3.56V9h3.554v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z" />
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="copyright">
+                            <p>&copy; 2025 Khush. All rights reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 </body>
 
